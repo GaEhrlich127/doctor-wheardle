@@ -1,33 +1,22 @@
 {
-  "name": "nextjs-pwa-firebase-boilerplate",
-  "description": "Next.js serverless PWA with Firebase and React Hooks",
-  "version": "1.15.0",
-  "author": "Tom Söderlund <tom@tomsoderlund.com>",
-  "license": "ISC",
+  "name": "wordle-clone-2",
+  "private": true,
   "scripts": {
-    "dev": "next dev -p 3004",
-    "vercel": "echo 'Running as Vercel serverless'; vercel dev --listen 3004",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3004",
-    "test": "echo 'Running Standard.js and Jasmine unit tests...\n' && yarn lint && yarn unit",
-    "unit": "jasmine",
-    "lint": "standard",
-    "fix": "standard --fix",
-    "deploy": "vercel --prod",
-    "v+": "yarn version --patch",
-    "v++": "yarn version --minor"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "aether-css-framework": "^1.6.17",
-    "firebase": "^7.15.5",
-    "next": "^11.0.0",
-    "next-offline": "^5.0.2",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-toastify": "^6.0.8"
+    "firebase": "^9.6.2",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-firebase-hooks": "^4.0.1"
   },
   "devDependencies": {
-    "standard": "^14.3.4",
-    "webpack": "^5.25.0"
+    "@types/react": "^17.0.38",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7"
   }
 }
