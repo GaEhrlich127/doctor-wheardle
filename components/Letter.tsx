@@ -10,7 +10,15 @@ const Letter = (props:LetterProps) => {
       style={{
         width: '5rem',
         height: '5rem',
+
+        marginLeft: '0.25rem',
+        marginRight: '0.25rem',
+        marginTop: '0.75rem',
+        marginBottom: '0.75rem',
         
+        borderColor: 'black',
+        borderStyle: 'solid',
+        borderWidth: '2px',
         backgroundColor: props.color,
         color: props.color === 'white' ? 'black': 'white',
 
