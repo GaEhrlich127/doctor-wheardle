@@ -1,7 +1,9 @@
 import { useRouter } from 'next/router';
 import { useForm } from 'react-hook-form';
-import {  createUserWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword } from "firebase/auth";
 import {auth} from '../lib/firebase'
+import { useState } from 'react';
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 const SignUp = () => {
@@ -9,21 +11,28 @@ const SignUp = () => {
 
 
     // get functions to build form with useForm() hook
+    const [captchaValidated, setCaptchaValidated] = useState(false);
     const { register, handleSubmit, formState } = useForm({mode:'onChange'});
     const { errors } = formState;
 
     const onSubmit = (user) => {
-      createUserWithEmailAndPassword(auth, user.email, user.password)
-        .then((userCredential) => {
-          // Signed in 
-          const user = userCredential.user;
-          // ...
-        })
-        .catch((error) => {
-          const errorCode = error.code;
-          const errorMessage = error.message;
-          // ..
-        });
+      if(captchaValidated){
+        createUserWithEmailAndPassword(auth, user.email, user.password)
+            .then((userCredential) => {
+                // Signed in 
+                const user = userCredential.user;
+                alert("Account created and signed in!")
+                // ...
+            })
+            .catch((error) => {
+                alert("Could not create account at this time, sorry.")
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                // ..
+            });
+      } else{
+          alert('Please validate the captcha');
+      }
     }
 
     return (
@@ -51,7 +60,8 @@ const SignUp = () => {
                             })} className={`form-control ${errors.password ? 'is-invalid' : ''}`} />
                             <div className="invalid-feedback">{errors.password?.message}</div>
                         </div>
-                        <button disabled={formState.isSubmitting} className="btn btn-primary">
+                        <ReCAPTCHA sitekey='6Lfz9gweAAAAAOCOc7489KbdsltxZDCDmxPbEdd7' onChange={()=>{setCaptchaValidated(!captchaValidated)}}/>
+                        <button disabled={formState.isSubmitting} className="btn btn-primary mt-2">
                             {formState.isSubmitting && <span className="spinner-border spinner-border-sm mr-1"></span>}
                             Register
                         </button>

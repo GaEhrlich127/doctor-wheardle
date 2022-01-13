@@ -18,30 +18,37 @@ const Game = () => {
   const submitGuess = () => {
     if(completedGuesses.length<6){
       let colors=[]
+      //Do one pass to establish greens and grays
       for (let index=0; index<guess.length; index++) {
         const letter = guess[index];
         //If the letter matches
-        if( dictionary[targetId][index] === letter ){ colors.push('green'); continue; }
+        if( dictionary[targetId][index] === letter ){ colors[index]=('green'); continue; }
         //If the letter is not present
-        else if ( dictionary[targetId].indexOf(letter) === -1 ){ colors.push('gray'); continue; }
-        //If the letter is present but not in the correct position
-        else{
+        else if ( dictionary[targetId].indexOf(letter) === -1 ){ colors[index]=('gray'); continue; }
+      }
+      for (let index=0; index<guess.length; index++) {
+        //Do a second pass with the knowledge of greens already in place
+        const letter = guess[index];
+        //Any undefined color will be either yellow or gray, depending on existing greens
+        if( typeof colors[index] === 'undefined' ) {
+          //Count how many of the given letter are in the target
           let targetLetterCount=0;
           for(const character of dictionary[targetId]){
             if(character === letter){ targetLetterCount++; }
           }
+          //Count how many of the letters have already been used
           for(let i=0; i<colors.length; i++){
             if( ( colors[i]==='green' || colors[i]==='GoldenRod' ) && guess[i] === letter){
               targetLetterCount--;
             }
           }
-          console.log(letter, targetLetterCount);
-          if(targetLetterCount>0) { colors.push('GoldenRod'); continue; }
-          else{ colors.push('gray'); continue; }
+          //If not all the letters have been used, make this a yellow
+          if(targetLetterCount>0) { colors[index]=('GoldenRod'); continue; }
+          //Otherwise, make this a gray
+          else{ colors[index]=('gray'); continue; }
         }
       }
 
-      console.log('here2')
       setCompletedGuesses([...completedGuesses, {word:guess, colors}]);
       setGuess('')
     }
