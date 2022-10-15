@@ -12,7 +12,7 @@ const Game = () => {
 
   const [guesses, setGuesses] = useState([]);
 
-  // Get 
+  // If a cookie exists, load the data
   useEffect(()=>{
     const cookie = document.cookie;
     if(cookie.length!==0) {
@@ -20,9 +20,8 @@ const Game = () => {
     }
   },[])
 
+  // Update the cookie when you make a guess
   useEffect(()=>{
-    console.log(TrackInfo[DAY_NUMBER])
-    console.log(TrackInfo)
     const date = new Date();
     date.setHours(23,59,59,0);
     if(guesses.length!==0){
