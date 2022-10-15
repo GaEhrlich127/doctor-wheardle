@@ -138,8 +138,6 @@ const Game = () => {
           <ShareButton />
         </div>
       )}
-
-      <audio controls src={`/${TrackInfo[DAY_NUMBER]?.path}`}/>
     </div>
   )
 }
