@@ -1,7 +1,7 @@
 const trackInfo = 
 [
   {
-    "path": "Day of the Doctor + Time of the Doctor/Christmas.ogg",
+    "path": "Day of the Doctor + Time of the Doctor/Christmas.mp3",
     "name": "Christmas - Day of the Doctor + Time of the Doctor"
   },
   {
