@@ -21,7 +21,7 @@ const Game = () => {
     <div
       style={{width:'100vw', height:'100vh', display:'flex', flexDirection:'column', alignItems:'center', backgroundColor:'black', color:'lightgrey'}}
     >
-      <input type='file' onChange={(e)=>{setFile(e.target.files[0])}}/>
+      {/* <input type='file' onChange={(e)=>{setFile(e.target.files[0])}}/> */}
       <AudioPlayer
         audioSrc={"/Donna's Theme.mp3"}
         imgSrc={"/icon.png"}
