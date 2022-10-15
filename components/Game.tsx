@@ -70,7 +70,7 @@ const Game = () => {
     >
       <h1>Doctor Wheardle</h1>
       <AudioPlayer
-        audioSrc={TrackInfo[DAY_NUMBER]?.path}
+        audioSrc={`/${TrackInfo[DAY_NUMBER]?.path}`}
         currentLimit={guesses.length}
         ignoreBreaks = {guesses.includes('CORRECT') || guesses.length>=6}
       />
@@ -139,7 +139,7 @@ const Game = () => {
         </div>
       )}
 
-      <audio controls src={TrackInfo[DAY_NUMBER]?.path}/>
+      <audio controls src={`/${TrackInfo[DAY_NUMBER]?.path}`}/>
     </div>
   )
 }
