@@ -1,14 +1,9 @@
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
-import NonSSRWrapper from '../components/NonSSRWrapper'
 
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <NonSSRWrapper>
-      <Component {...pageProps} />
-    </NonSSRWrapper>
-  )
+  return <Component {...pageProps} />
 }
 
 export default MyApp
