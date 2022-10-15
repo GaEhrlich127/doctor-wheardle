@@ -1,8 +1,8 @@
 const trackInfo = 
 [
   {
-    "path": "Day of the Doctor + Time of the Doctor/Christmas.mp3",
-    "name": "Christmas - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Christmas.mp3",
+    "name": "Christmas - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 6/Tick Tock (Vocal Track).mp3",
@@ -17,8 +17,8 @@ const trackInfo =
     "name": "They Need Us - Series 9"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Who Are You.mp3",
-    "name": "Who Are You - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Who Are You.mp3",
+    "name": "Who Are You - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 8/Study Our Own Demise.mp3",
@@ -29,8 +29,8 @@ const trackInfo =
     "name": "Spoonheads - Series 7"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/We Are The Doctors.mp3",
-    "name": "We Are The Doctors - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/We Are The Doctors.mp3",
+    "name": "We Are The Doctors - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 8/The Song of Danny and Clara.mp3",
@@ -57,8 +57,8 @@ const trackInfo =
     "name": "Apollo 11 - Series 6"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Three Doctors.mp3",
-    "name": "Three Doctors - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Three Doctors.mp3",
+    "name": "Three Doctors - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 8/This Is My Spoon.mp3",
@@ -69,8 +69,8 @@ const trackInfo =
     "name": "Pain Everlasting - Series 7"
   },
   {
-    "path": "Series 1+2/Boom Town Suite.mp3",
-    "name": "Boom Town Suite - Series 1+2"
+    "path": "Series 1 & 2/Boom Town Suite.mp3",
+    "name": "Boom Town Suite - Series 1 & 2"
   },
   {
     "path": "Series 5/Battle In the Sky.mp3",
@@ -97,8 +97,8 @@ const trackInfo =
     "name": "The Greats of Past Time - Series 4 Specials"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Beginning Of The End.mp3",
-    "name": "Beginning Of The End - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Beginning Of The End.mp3",
+    "name": "Beginning Of The End - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 9/A Duty of Care.mp3",
@@ -113,8 +113,8 @@ const trackInfo =
     "name": "When A River Forms - Series 6"
   },
   {
-    "path": "Series 1+2/Monster Bossa.mp3",
-    "name": "Monster Bossa - Series 1+2"
+    "path": "Series 1 & 2/Monster Bossa.mp3",
+    "name": "Monster Bossa - Series 1 & 2"
   },
   {
     "path": "The Doctor The Widow The Wardrobe + The Snowmen/Geronimo.mp3",
@@ -125,12 +125,12 @@ const trackInfo =
     "name": "The Other Halfs Inside the Shark - A Christmas Carol"
   },
   {
-    "path": "Series 1+2/The Impossible Planet.mp3",
-    "name": "The Impossible Planet - Series 1+2"
+    "path": "Series 1 & 2/The Impossible Planet.mp3",
+    "name": "The Impossible Planet - Series 1 & 2"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/2.47 Billion.mp3",
-    "name": "2.47 Billion - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/2.47 Billion.mp3",
+    "name": "2.47 Billion - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 5/Impossible Choice (Bonus Track).mp3",
@@ -165,8 +165,8 @@ const trackInfo =
     "name": "Cumbria 1207 - Series 7"
   },
   {
-    "path": "Series 1+2/Song for Ten (performed by Tim Phillips).mp3",
-    "name": "Song for Ten (performed by Tim Phillips from TV) - Series 1+2"
+    "path": "Series 1 & 2/Song for Ten (performed by Tim Phillips).mp3",
+    "name": "Song for Ten (performed by Tim Phillips from TV) - Series 1 & 2"
   },
   {
     "path": "Series 3/Martha Triumphant.mp3",
@@ -193,8 +193,8 @@ const trackInfo =
     "name": "Missy's Theme - Series 8"
   },
   {
-    "path": "Series 1+2/The Daleks.mp3",
-    "name": "The Daleks - Series 1+2"
+    "path": "Series 1 & 2/The Daleks.mp3",
+    "name": "The Daleks - Series 1 & 2"
   },
   {
     "path": "Series 8/Thinking About It.mp3",
@@ -237,8 +237,8 @@ const trackInfo =
     "name": "Pop - Series 6"
   },
   {
-    "path": "Series 1+2/I'm Coming To Get You.mp3",
-    "name": "I'm Coming To Get You - Series 1+2"
+    "path": "Series 1 & 2/I'm Coming To Get You.mp3",
+    "name": "I'm Coming To Get You - Series 1 & 2"
   },
   {
     "path": "The Doctor The Widow The Wardrobe + The Snowmen/Quite a Tree.mp3",
@@ -377,8 +377,8 @@ const trackInfo =
     "name": "The Silurians - Series 5"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Footprints in the Sand.mp3",
-    "name": "Footprints in the Sand - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Footprints in the Sand.mp3",
+    "name": "Footprints in the Sand - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 9/Waiting for the Veil.mp3",
@@ -409,8 +409,8 @@ const trackInfo =
     "name": "The Woman He Loves - Series 9"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Will There Be Cocktails.mp3",
-    "name": "Will There Be Cocktails? - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Will There Be Cocktails.mp3",
+    "name": "Will There Be Cocktails? - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 9/Some Kind of Submarine.mp3",
@@ -421,8 +421,8 @@ const trackInfo =
     "name": "Into The Present - The Doctor The Widow The Wardrobe + The Snowmen"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/He Was There.mp3",
-    "name": "He Was There - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/He Was There.mp3",
+    "name": "He Was There - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 5/You Must Like It Here.mp3",
@@ -465,12 +465,12 @@ const trackInfo =
     "name": "Voyage Of The Damned Suite - Series 4"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Rhapsody of War.mp3",
-    "name": "Rhapsody of War - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Rhapsody of War.mp3",
+    "name": "Rhapsody of War - Day of the Doctor & Time of the Doctor"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Tasha Lem.mp3",
-    "name": "Tasha Lem - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Tasha Lem.mp3",
+    "name": "Tasha Lem - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 9/The Final Room.mp3",
@@ -497,8 +497,8 @@ const trackInfo =
     "name": "God Of Akhaten - Series 7"
   },
   {
-    "path": "Series 1+2/Rose's Theme.mp3",
-    "name": "Rose's Theme - Series 1+2"
+    "path": "Series 1 & 2/Rose's Theme.mp3",
+    "name": "Rose's Theme - Series 1 & 2"
   },
   {
     "path": "Series 6/Fragrance.mp3",
@@ -625,16 +625,16 @@ const trackInfo =
     "name": "I Offer You My Daughter - Series 5"
   },
   {
-    "path": "Series 1+2/New Adventures.mp3",
-    "name": "New Adventures - Series 1+2"
+    "path": "Series 1 & 2/New Adventures.mp3",
+    "name": "New Adventures - Series 1 & 2"
   },
   {
     "path": "Series 4 Specials/A Lot of Life Behind Us.mp3",
     "name": "A Lot of Life Behind Us - Series 4 Specials"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Never Tell Me The Rules.mp3",
-    "name": "Never Tell Me The Rules - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Never Tell Me The Rules.mp3",
+    "name": "Never Tell Me The Rules - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 4/Hanging On The Tablaphone - Copy.mp3",
@@ -681,8 +681,8 @@ const trackInfo =
     "name": "Gunslingers - Series 7"
   },
   {
-    "path": "Series 1+2/Westminster Bridge.mp3",
-    "name": "Westminster Bridge - Series 1+2"
+    "path": "Series 1 & 2/Westminster Bridge.mp3",
+    "name": "Westminster Bridge - Series 1 & 2"
   },
   {
     "path": "Series 4/The Sybilline Sisterhood.mp3",
@@ -697,8 +697,8 @@ const trackInfo =
     "name": "Hydroflax in the TARDIS - Series 9"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Somewhere To Hide.mp3",
-    "name": "Somewhere To Hide - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Somewhere To Hide.mp3",
+    "name": "Somewhere To Hide - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 5/Amy's Theme.mp3",
@@ -765,8 +765,8 @@ const trackInfo =
     "name": "The New Doctor - Series 4 Specials"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Papal Mainframe.mp3",
-    "name": "Papal Mainframe - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Papal Mainframe.mp3",
+    "name": "Papal Mainframe - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 5/The Mad Man With a Box.mp3",
@@ -777,8 +777,8 @@ const trackInfo =
     "name": "A Restaurant with a View - Series 9"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Trenzalore;The Long Song;I Am Information (Reprise).mp3",
-    "name": "Trenzalore/The Long Song/I Am Information (Reprise) - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Trenzalore;The Long Song;I Am Information (Reprise).mp3",
+    "name": "Trenzalore/The Long Song/I Am Information (Reprise) - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 8/A Reunion.mp3",
@@ -833,8 +833,8 @@ const trackInfo =
     "name": "The Sad Man With a Box - Series 5"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/The War Room.mp3",
-    "name": "The War Room - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/The War Room.mp3",
+    "name": "The War Room - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 5/Amy and Rory.mp3",
@@ -893,8 +893,8 @@ const trackInfo =
     "name": "Perfect Reflection - Series 6"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/The Mission.mp3",
-    "name": "The Mission - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/The Mission.mp3",
+    "name": "The Mission - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 3/Boe.mp3",
@@ -953,8 +953,8 @@ const trackInfo =
     "name": "A Very Unusual Melody - Series 6"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/The Moment Has Come.mp3",
-    "name": "The Moment Has Come - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/The Moment Has Come.mp3",
+    "name": "The Moment Has Come - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 9/Carol Singers Will Be Criticised.mp3",
@@ -1029,8 +1029,8 @@ const trackInfo =
     "name": "A Bit of a Drag - Series 4 Specials"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/This Is How It Ends.mp3",
-    "name": "This Is How It Ends - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/This Is How It Ends.mp3",
+    "name": "This Is How It Ends - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 5/Little Amy.mp3",
@@ -1105,8 +1105,8 @@ const trackInfo =
     "name": "Kiss the Girl - Series 5"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/I.M. Foreman.mp3",
-    "name": "I.M. Foreman - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/I.M. Foreman.mp3",
+    "name": "I.M. Foreman - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 6/Fear Enough.mp3",
@@ -1117,12 +1117,12 @@ const trackInfo =
     "name": "This Is Where It Gets Complicated - Series 5"
   },
   {
-    "path": "Series 1+2/Doctor Who Theme (Album Version).mp3",
-    "name": "Doctor Who Theme - Album Version - Series 1+2"
+    "path": "Series 1 & 2/Doctor Who Theme (Album Version).mp3",
+    "name": "Doctor Who Theme - Album Version - Series 1 & 2"
   },
   {
-    "path": "Series 1+2/Seeking The Doctor.mp3",
-    "name": "Seeking The Doctor - Series 1+2"
+    "path": "Series 1 & 2/Seeking The Doctor.mp3",
+    "name": "Seeking The Doctor - Series 1 & 2"
   },
   {
     "path": "Series 9/Just Come Inside.mp3",
@@ -1181,12 +1181,12 @@ const trackInfo =
     "name": "Ransacked - Series 6"
   },
   {
-    "path": "Series 1+2/Tooth And Claw.mp3",
-    "name": "Tooth And Claw - Series 1+2"
+    "path": "Series 1 & 2/Tooth And Claw.mp3",
+    "name": "Tooth And Claw - Series 1 & 2"
   },
   {
-    "path": "Series 1+2/Love Don't Roam (performed by Neil Hannon).mp3",
-    "name": "Love Don't Roam (performed by Neil Hannon) - Series 1+2"
+    "path": "Series 1 & 2/Love Don't Roam (performed by Neil Hannon).mp3",
+    "name": "Love Don't Roam (performed by Neil Hannon) - Series 1 & 2"
   },
   {
     "path": "Series 7/Merry Gejelh.mp3",
@@ -1225,8 +1225,8 @@ const trackInfo =
     "name": "We Shall Farewell - Series 4 Specials"
   },
   {
-    "path": "Series 1+2/Song For Ten (performed by Neil Hannon).mp3",
-    "name": "Song For Ten (performed by Neil Hannon) - Series 1+2"
+    "path": "Series 1 & 2/Song For Ten (performed by Neil Hannon).mp3",
+    "name": "Song For Ten (performed by Neil Hannon) - Series 1 & 2"
   },
   {
     "path": "Series 9/Defending the Earth.mp3",
@@ -1273,12 +1273,12 @@ const trackInfo =
     "name": "Wedded Bliss - Series 5"
   },
   {
-    "path": "Series 1+2/Cassandra's Waltz.mp3",
-    "name": "Cassandra's Waltz - Series 1+2"
+    "path": "Series 1 & 2/Cassandra's Waltz.mp3",
+    "name": "Cassandra's Waltz - Series 1 & 2"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/No More.mp3",
-    "name": "No More - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/No More.mp3",
+    "name": "No More - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "A Christmas Carol/Geoff.mp3",
@@ -1289,8 +1289,8 @@ const trackInfo =
     "name": "Oswin Oswald - Series 7"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/The Dance Of The Naked Doctor.mp3",
-    "name": "The Dance Of The Naked Doctor - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/The Dance Of The Naked Doctor.mp3",
+    "name": "The Dance Of The Naked Doctor - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 4 Specials/A Forceful Intelligence.mp3",
@@ -1313,8 +1313,8 @@ const trackInfo =
     "name": "Doctor Gastronomy - Series 5"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Zygon In The Painting.mp3",
-    "name": "Zygon In The Painting - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Zygon In The Painting.mp3",
+    "name": "Zygon In The Painting - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 4/The Greatest Story Never Told.mp3",
@@ -1357,8 +1357,8 @@ const trackInfo =
     "name": "Amy And Rory Together - Series 7"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Man And Wife.mp3",
-    "name": "Man And Wife - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Man And Wife.mp3",
+    "name": "Man And Wife - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 3/Drowning Dry.mp3",
@@ -1401,8 +1401,8 @@ const trackInfo =
     "name": "Amy In the Tardis - Series 5"
   },
   {
-    "path": "Series 1+2/Sycorax Encounter.mp3",
-    "name": "Sycorax Encounter - Series 1+2"
+    "path": "Series 1 & 2/Sycorax Encounter.mp3",
+    "name": "Sycorax Encounter - Series 1 & 2"
   },
   {
     "path": "Series 7/I Am You.mp3",
@@ -1445,8 +1445,8 @@ const trackInfo =
     "name": "In The Woods - Series 8"
   },
   {
-    "path": "Series 1+2/Unit.mp3",
-    "name": "Unit - Series 1+2"
+    "path": "Series 1 & 2/Unit.mp3",
+    "name": "Unit - Series 1 & 2"
   },
   {
     "path": "Series 9/Tell No Lies.mp3",
@@ -1457,8 +1457,8 @@ const trackInfo =
     "name": "The Sun's Gone Wibbly - Series 5"
   },
   {
-    "path": "Series 1+2/Madame De Pompadour.mp3",
-    "name": "Madame De Pompadour - Series 1+2"
+    "path": "Series 1 & 2/Madame De Pompadour.mp3",
+    "name": "Madame De Pompadour - Series 1 & 2"
   },
   {
     "path": "Series 9/Break Free.mp3",
@@ -1477,12 +1477,12 @@ const trackInfo =
     "name": "Clara Who? - The Doctor The Widow The Wardrobe + The Snowmen"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Bedroom Talk.mp3",
-    "name": "Bedroom Talk - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Bedroom Talk.mp3",
+    "name": "Bedroom Talk - Day of the Doctor & Time of the Doctor"
   },
   {
-    "path": "Series 1+2/Harriet Jones, Prime Minister.mp3",
-    "name": "Harriet Jones, Prime Minister - Series 1+2"
+    "path": "Series 1 & 2/Harriet Jones, Prime Minister.mp3",
+    "name": "Harriet Jones, Prime Minister - Series 1 & 2"
   },
   {
     "path": "Series 9/This is Not a War.mp3",
@@ -1497,8 +1497,8 @@ const trackInfo =
     "name": "Deep Cover - Series 9"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/It's Him (The Majestic Tale).mp3",
-    "name": "It's Him (The Majestic Tale) - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/It's Him (The Majestic Tale).mp3",
+    "name": "It's Him (The Majestic Tale) - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 9/The Veil.mp3",
@@ -1545,8 +1545,8 @@ const trackInfo =
     "name": "I Can't Save Her - A Christmas Carol"
   },
   {
-    "path": "Series 1+2/Father's Day.mp3",
-    "name": "Father's Day - Series 1+2"
+    "path": "Series 1 & 2/Father's Day.mp3",
+    "name": "Father's Day - Series 1 & 2"
   },
   {
     "path": "Series 4 Specials/Goodbyes.mp3",
@@ -1569,8 +1569,8 @@ const trackInfo =
     "name": "A Probe In The Snow - Series 7"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Rescue The Doctor.mp3",
-    "name": "Rescue The Doctor - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Rescue The Doctor.mp3",
+    "name": "Rescue The Doctor - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 8/Do You Really Believe In Santa;.mp3",
@@ -1649,8 +1649,8 @@ const trackInfo =
     "name": "The Golden Arrow - Series 8"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Two Doctors.mp3",
-    "name": "Two Doctors - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Two Doctors.mp3",
+    "name": "Two Doctors - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "The Doctor The Widow The Wardrobe + The Snowmen/Sherlock Who;.mp3",
@@ -1721,12 +1721,12 @@ const trackInfo =
     "name": "A Disturbance in the Night - Series 4 Specials"
   },
   {
-    "path": "Series 1+2/The Cybermen.mp3",
-    "name": "The Cybermen - Series 1+2"
+    "path": "Series 1 & 2/The Cybermen.mp3",
+    "name": "The Cybermen - Series 1 & 2"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/The Message.mp3",
-    "name": "The Message - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/The Message.mp3",
+    "name": "The Message - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 5/This Is the Dream.mp3",
@@ -1737,8 +1737,8 @@ const trackInfo =
     "name": "Account Closed - Series 8"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/The Fez And The Portal.mp3",
-    "name": "The Fez And The Portal - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/The Fez And The Portal.mp3",
+    "name": "The Fez And The Portal - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 6/Lost in the Wrong Stream.mp3",
@@ -1765,12 +1765,12 @@ const trackInfo =
     "name": "The Curse of the Black Spot - Series 6"
   },
   {
-    "path": "Series 1+2/Doomsday.mp3",
-    "name": "Doomsday - Series 1+2"
+    "path": "Series 1 & 2/Doomsday.mp3",
+    "name": "Doomsday - Series 1 & 2"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/The Crack.mp3",
-    "name": "The Crack - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/The Crack.mp3",
+    "name": "The Crack - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 5/Beneath Stonehenge.mp3",
@@ -1781,8 +1781,8 @@ const trackInfo =
     "name": "Baubles - The Doctor The Widow The Wardrobe + The Snowmen"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Hello Twelve.mp3",
-    "name": "Hello Twelve - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Hello Twelve.mp3",
+    "name": "Hello Twelve - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 4 Specials/The Wonder of Balloons.mp3",
@@ -1829,8 +1829,8 @@ const trackInfo =
     "name": "What Have You Done - Series 9"
   },
   {
-    "path": "Series 1+2/Slitheen.mp3",
-    "name": "Slitheen - Series 1+2"
+    "path": "Series 1 & 2/Slitheen.mp3",
+    "name": "Slitheen - Series 1 & 2"
   },
   {
     "path": "Series 5/The Time of Angels.mp3",
@@ -1881,8 +1881,8 @@ const trackInfo =
     "name": "Aristotle, We Have Been Hit - Series 8"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Snow Over Trenzalore (Song for Four).mp3",
-    "name": "Snow Over Trenzalore (Song for Four) - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Snow Over Trenzalore (Song for Four).mp3",
+    "name": "Snow Over Trenzalore (Song for Four) - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 3/The Futurekind.mp3",
@@ -1917,8 +1917,8 @@ const trackInfo =
     "name": "Tell Me Who You Are - Series 6"
   },
   {
-    "path": "Series 1+2/The Lone Dalek.mp3",
-    "name": "The Lone Dalek - Series 1+2"
+    "path": "Series 1 & 2/The Lone Dalek.mp3",
+    "name": "The Lone Dalek - Series 1 & 2"
   },
   {
     "path": "Series 9/Digging a Grave.mp3",
@@ -1957,12 +1957,12 @@ const trackInfo =
     "name": "The Carrionites Swarm - Series 3"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/You Saved It.mp3",
-    "name": "You Saved It - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/You Saved It.mp3",
+    "name": "You Saved It - Day of the Doctor & Time of the Doctor"
   },
   {
-    "path": "Series 1+2/The Face Of Boe.mp3",
-    "name": "The Face Of Boe - Series 1+2"
+    "path": "Series 1 & 2/The Face Of Boe.mp3",
+    "name": "The Face Of Boe - Series 1 & 2"
   },
   {
     "path": "A Christmas Carol/Holding Hands.mp3",
@@ -2021,8 +2021,8 @@ const trackInfo =
     "name": "Into the Museum - Series 5"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/England 1562.mp3",
-    "name": "England 1562 - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/England 1562.mp3",
+    "name": "England 1562 - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 6/Greystark Hall.mp3",
@@ -2041,12 +2041,12 @@ const trackInfo =
     "name": "All the Strange, Strange Creatures (The Trailer Music) [Remix] - Series 3"
   },
   {
-    "path": "Series 1+2/Finding Jackie.mp3",
-    "name": "Finding Jackie - Series 1+2"
+    "path": "Series 1 & 2/Finding Jackie.mp3",
+    "name": "Finding Jackie - Series 1 & 2"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Song for Four ; Home.mp3",
-    "name": "Song for Four / Home - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Song for Four ; Home.mp3",
+    "name": "Song for Four / Home - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 5/The Vampires of Venice.mp3",
@@ -2069,16 +2069,16 @@ const trackInfo =
     "name": "Abide with Me - Series 3"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Back to Christmas.mp3",
-    "name": "Back to Christmas - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Back to Christmas.mp3",
+    "name": "Back to Christmas - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 4/The Rueful Fate Of Donna Noble.mp3",
     "name": "The Rueful Fate Of Donna Noble - Series 4"
   },
   {
-    "path": "Series 1+2/Hologram.mp3",
-    "name": "Hologram - Series 1+2"
+    "path": "Series 1 & 2/Hologram.mp3",
+    "name": "Hologram - Series 1 & 2"
   },
   {
     "path": "Series 9/The Shepherd's Boy.mp3",
@@ -2093,8 +2093,8 @@ const trackInfo =
     "name": "A Mechanical Maze - Series 9"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Nice Horse.mp3",
-    "name": "Nice Horse - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Nice Horse.mp3",
+    "name": "Nice Horse - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 3/YANA (Excerpt).mp3",
@@ -2109,8 +2109,8 @@ const trackInfo =
     "name": "Roman Paradox - Series 5"
   },
   {
-    "path": "Series 1+2/Doctor Who Theme.mp3",
-    "name": "Doctor Who Theme - Series 1+2"
+    "path": "Series 1 & 2/Doctor Who Theme.mp3",
+    "name": "Doctor Who Theme - Series 1 & 2"
   },
   {
     "path": "Series 4/Song Of Freedom.mp3",
@@ -2125,8 +2125,8 @@ const trackInfo =
     "name": "Doctor Who XI - Series 5"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/We Don't Need To Land.mp3",
-    "name": "We Don't Need To Land - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/We Don't Need To Land.mp3",
+    "name": "We Don't Need To Land - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "A Christmas Carol/Big Colour.mp3",
@@ -2197,20 +2197,20 @@ const trackInfo =
     "name": "Not Knowing - Series 8"
   },
   {
-    "path": "Series 1+2/Clockwork TARDIS.mp3",
-    "name": "Clockwork TARDIS - Series 1+2"
+    "path": "Series 1 & 2/Clockwork TARDIS.mp3",
+    "name": "Clockwork TARDIS - Series 1 & 2"
   },
   {
-    "path": "Series 1+2/Rose In Peril.mp3",
-    "name": "Rose In Peril - Series 1+2"
+    "path": "Series 1 & 2/Rose In Peril.mp3",
+    "name": "Rose In Peril - Series 1 & 2"
   },
   {
     "path": "Series 9/The Husbands of River Song.mp3",
     "name": "The Husbands of River Song - Series 9"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/Handles.mp3",
-    "name": "Handles - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/Handles.mp3",
+    "name": "Handles - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "Series 9/A Dying Husband.mp3",
@@ -2237,8 +2237,8 @@ const trackInfo =
     "name": "Glasgow - Series 7"
   },
   {
-    "path": "Series 1+2/The Doctor's Theme.mp3",
-    "name": "The Doctor's Theme - Series 1+2"
+    "path": "Series 1 & 2/The Doctor's Theme.mp3",
+    "name": "The Doctor's Theme - Series 1 & 2"
   },
   {
     "path": "Series 7/Hedgewick's World.mp3",
@@ -2249,8 +2249,8 @@ const trackInfo =
     "name": "Browsing - Series 8"
   },
   {
-    "path": "Series 1+2/Rose Defeats The Daleks.mp3",
-    "name": "Rose Defeats The Daleks - Series 1+2"
+    "path": "Series 1 & 2/Rose Defeats The Daleks.mp3",
+    "name": "Rose Defeats The Daleks - Series 1 & 2"
   },
   {
     "path": "Series 7/Hide The Damage.mp3",
@@ -2301,8 +2301,8 @@ const trackInfo =
     "name": "The Impossible Girl - Series 7"
   },
   {
-    "path": "Day of the Doctor + Time of the Doctor/This Time There's Three Of Us (The Majestic Tale).mp3",
-    "name": "This Time There's Three Of Us (The Majestic Tale) - Day of the Doctor + Time of the Doctor"
+    "path": "Day of the Doctor & Time of the Doctor/This Time There's Three Of Us (The Majestic Tale).mp3",
+    "name": "This Time There's Three Of Us (The Majestic Tale) - Day of the Doctor & Time of the Doctor"
   },
   {
     "path": "A Christmas Carol/Everything Has to End Some Time.mp3",
