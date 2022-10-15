@@ -75,7 +75,7 @@ const SearchBar = ({trackInfo, handleSubmit, handleSkip}) => {
       {/* Holder div for the search bar itself */}
       <div
         style={{
-          width:'657px',
+          width:'740px',
           height:'40px',
           display:'flex',
           flexDirection:'row',
@@ -135,14 +135,18 @@ const SearchBar = ({trackInfo, handleSubmit, handleSkip}) => {
         <div
           style={{
             width:'100%',
-            height:'100%',
+            // height:'100%',
+            maxHeight: '400px',
             backgroundColor:'#2F2F2F',
             zIndex:'1',
             display:'flex',
             flexDirection:'column',
+            overflowY:'scroll',
+            borderBottomLeftRadius:'5px',
+            borderBottomRightRadius:'5px',
           }}
         >
-          {fuse.search(searchTerm).slice(0, 10).sort(
+          {fuse.search(searchTerm).sort(
             (a, b) => {
               // @ts-ignore
               if(a.item.name < b.item.name) return -1;
@@ -163,13 +167,12 @@ const SearchBar = ({trackInfo, handleSubmit, handleSkip}) => {
                 display:'table',
                 borderTop:'1px solid lightgrey',
                 borderBottom:'1px solid lightgrey',
-                borderBottomLeftRadius: i===9 ? '5px' : '0px',
-                borderBottomRightRadius: i===9 ? '5px' : '0px',
               }}
               // @ts-ignore
               onClick={() => {setSearchTerm(song.item.name); setCurrentlySearching(false)}}
             >
               <p style={{
+                height:'40px',
                 paddingLeft:'10px',
                 paddingRight:'10px',
                 display:'table-cell',

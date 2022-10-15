@@ -45,7 +45,7 @@ const AudioPlayer = ({ audioSrc, currentLimit, ignoreBreaks }) => {
     return `${minutes}:${seconds < 10 ? "0" + seconds : seconds}`;
   }
 
-  const WIDTH_PER_SECOND=28;
+  const WIDTH_PER_SECOND=35;
   return (
     <NonSSRWrapper>
       {/* Show a loading spinner while it loads */}
