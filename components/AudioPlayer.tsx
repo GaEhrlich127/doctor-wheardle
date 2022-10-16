@@ -74,7 +74,7 @@ const AudioPlayer = ({ audioSrc, currentLimit, ignoreBreaks }) => {
           {/* The div that fills it */}
           <div style={{
             height: '100%',
-            width: `${currentTime*28}px`,
+            width: `${currentTime*WIDTH_PER_SECOND}px`,
             maxWidth: `${16*WIDTH_PER_SECOND}px`,
             backgroundColor: '#0a4c8b',
           }} />
