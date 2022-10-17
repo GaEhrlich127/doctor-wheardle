@@ -9,8 +9,8 @@ const trackInfo =
     "name": "Whisper Men - Series 7"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Safe Landing.mp3",
-    "name": "Safe Landing - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Safe Landing.mp3",
+    "name": "Safe Landing - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 5/Doctor Gastronomy.mp3",
@@ -457,8 +457,8 @@ const trackInfo =
     "name": "The Time Lords' Last Stand - Series 4 Specials"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/A Voice In The Snow.mp3",
-    "name": "A Voice In The Snow - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/A Voice In The Snow.mp3",
+    "name": "A Voice In The Snow - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 6/1969.mp3",
@@ -533,12 +533,12 @@ const trackInfo =
     "name": "The Master Tape - Series 3"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Clara Who;.mp3",
-    "name": "Clara Who? - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Clara Who;.mp3",
+    "name": "Clara Who? - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Never Alone At Christmas.mp3",
-    "name": "Never Alone At Christmas - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Never Alone At Christmas.mp3",
+    "name": "Never Alone At Christmas - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "A Christmas Carol/Goodnight Abigail.mp3",
@@ -665,8 +665,8 @@ const trackInfo =
     "name": "The Mission - Day of the Doctor & Time of the Doctor"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Lifeboat.mp3",
-    "name": "Lifeboat - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Lifeboat.mp3",
+    "name": "Lifeboat - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 4 Specials/A Longing to Leave.mp3",
@@ -737,8 +737,8 @@ const trackInfo =
     "name": "The Song of Danny and Clara - Series 8"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Hello Mates.mp3",
-    "name": "Hello Mates - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Hello Mates.mp3",
+    "name": "Hello Mates - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 8/The Doctor's Dream Christmas.mp3",
@@ -837,8 +837,8 @@ const trackInfo =
     "name": "Believe In Santa - Series 8"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Flying Home For Christmas.mp3",
-    "name": "Flying Home For Christmas - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Flying Home For Christmas.mp3",
+    "name": "Flying Home For Christmas - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Day of the Doctor & Time of the Doctor/It's Him (The Majestic Tale).mp3",
@@ -877,8 +877,8 @@ const trackInfo =
     "name": "What A Brain - Series 7"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Clara Lives.mp3",
-    "name": "Clara Lives - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Clara Lives.mp3",
+    "name": "Clara Lives - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 8/Tell Me, Am I A Good Man;.mp3",
@@ -905,8 +905,8 @@ const trackInfo =
     "name": "Seeking The Doctor - Series 1 & 2"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Governess Clara.mp3",
-    "name": "Governess Clara - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Governess Clara.mp3",
+    "name": "Governess Clara - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 9/I Call Myself Me.mp3",
@@ -969,8 +969,8 @@ const trackInfo =
     "name": "Tasha Lem - Day of the Doctor & Time of the Doctor"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Armchair Waltz.mp3",
-    "name": "Armchair Waltz - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Armchair Waltz.mp3",
+    "name": "Armchair Waltz - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 8/Freefall.mp3",
@@ -1009,8 +1009,8 @@ const trackInfo =
     "name": "Who Are You - Day of the Doctor & Time of the Doctor"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/What's Wrong With Silly.mp3",
-    "name": "What's Wrong With Silly - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/What's Wrong With Silly.mp3",
+    "name": "What's Wrong With Silly - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 7/Brian's Log.mp3",
@@ -1033,12 +1033,12 @@ const trackInfo =
     "name": "Help Is On It's Way - Series 6"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Interrogation.mp3",
-    "name": "Interrogation - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Interrogation.mp3",
+    "name": "Interrogation - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Into The Present.mp3",
-    "name": "Into The Present - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Into The Present.mp3",
+    "name": "Into The Present - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 8/Missy's Gift.mp3",
@@ -1101,8 +1101,8 @@ const trackInfo =
     "name": "The Truth About The Daleks - Series 8"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Ditched At Sea.mp3",
-    "name": "Ditched At Sea - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Ditched At Sea.mp3",
+    "name": "Ditched At Sea - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 8/The Caretaker.mp3",
@@ -1161,8 +1161,8 @@ const trackInfo =
     "name": "Just Scarecrows to War - Series 3"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Friendship.mp3",
-    "name": "Friendship - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Friendship.mp3",
+    "name": "Friendship - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Day of the Doctor & Time of the Doctor/Three Doctors.mp3",
@@ -1177,8 +1177,8 @@ const trackInfo =
     "name": "A Dying Husband - Series 9"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/You're Fired.mp3",
-    "name": "You're Fired - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/You're Fired.mp3",
+    "name": "You're Fired - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 7/Remember Me.mp3",
@@ -1225,8 +1225,8 @@ const trackInfo =
     "name": "Song for Ten (Reprise) - Series 4 Specials"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Quite a Tree.mp3",
-    "name": "Quite a Tree - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Quite a Tree.mp3",
+    "name": "Quite a Tree - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 9/The Final Room.mp3",
@@ -1277,8 +1277,8 @@ const trackInfo =
     "name": "What Difference A Good Dalek? - Series 8"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Bumps.mp3",
-    "name": "Bumps - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Bumps.mp3",
+    "name": "Bumps - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 8/The Sarcophagus Opens.mp3",
@@ -1309,8 +1309,8 @@ const trackInfo =
     "name": "A Turbulent Flight - Series 7"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/The King.mp3",
-    "name": "The King - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/The King.mp3",
+    "name": "The King - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 4/A Noble Girl About Town.mp3",
@@ -1545,8 +1545,8 @@ const trackInfo =
     "name": "Doctor Who Series 8 - Disc 1 - 01 - Doctor Who Theme Series 8 - Series 8"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Sherlock Who;.mp3",
-    "name": "Sherlock Who? - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Sherlock Who;.mp3",
+    "name": "Sherlock Who? - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 3/Drowning Dry.mp3",
@@ -1577,8 +1577,8 @@ const trackInfo =
     "name": "This is Not a War - Series 9"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Dressed In a Hurry.mp3",
-    "name": "Dressed In a Hurry - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Dressed In a Hurry.mp3",
+    "name": "Dressed In a Hurry - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 3/YANA (Excerpt).mp3",
@@ -1609,8 +1609,8 @@ const trackInfo =
     "name": "Holding Hands - A Christmas Carol"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/One Word.mp3",
-    "name": "One Word - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/One Word.mp3",
+    "name": "One Word - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 6/Tell Me Who You Are.mp3",
@@ -1629,8 +1629,8 @@ const trackInfo =
     "name": "The Impossible Astronaut - Series 6"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Baubles.mp3",
-    "name": "Baubles - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Baubles.mp3",
+    "name": "Baubles - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 9/Deep Cover.mp3",
@@ -1701,8 +1701,8 @@ const trackInfo =
     "name": "The Song Of Song - Series 4"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Psychotic Potato Dwarf.mp3",
-    "name": "Psychotic Potato Dwarf - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Psychotic Potato Dwarf.mp3",
+    "name": "Psychotic Potato Dwarf - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 5/The Silurians.mp3",
@@ -1777,8 +1777,8 @@ const trackInfo =
     "name": "Siege Mode - Series 8"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Clara In The TARDIS.mp3",
-    "name": "Clara In The TARDIS - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Clara In The TARDIS.mp3",
+    "name": "Clara In The TARDIS - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 7/Welcome To Mercy.mp3",
@@ -1797,8 +1797,8 @@ const trackInfo =
     "name": "Davros Remembers - Series 9"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Madge's Theme.mp3",
-    "name": "Madge's Theme - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Madge's Theme.mp3",
+    "name": "Madge's Theme - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "A Christmas Carol/Ghost of Christmas Present.mp3",
@@ -1881,8 +1881,8 @@ const trackInfo =
     "name": "Who Else Is Coming - Series 5"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Geronimo.mp3",
-    "name": "Geronimo - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Geronimo.mp3",
+    "name": "Geronimo - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 1 & 2/Sycorax Encounter.mp3",
@@ -1901,8 +1901,8 @@ const trackInfo =
     "name": "Abigail - A Christmas Carol"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Whose Engima.mp3",
-    "name": "Whose Engima - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Whose Engima.mp3",
+    "name": "Whose Engima - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 9/Two Events in Life.mp3",
@@ -1913,8 +1913,8 @@ const trackInfo =
     "name": "Cold War - Series 7"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Rememeber The Worm.mp3",
-    "name": "Rememeber The Worm - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Rememeber The Worm.mp3",
+    "name": "Rememeber The Worm - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 1 & 2/Tooth And Claw.mp3",
@@ -1949,8 +1949,8 @@ const trackInfo =
     "name": "A Reunion - Series 8"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/The Queen.mp3",
-    "name": "The Queen - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/The Queen.mp3",
+    "name": "The Queen - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 9/The Finest Surgeon in the Galaxy.mp3",
@@ -2257,8 +2257,8 @@ const trackInfo =
     "name": "Finding Jackie - Series 1 & 2"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/I Know.mp3",
-    "name": "I Know - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/I Know.mp3",
+    "name": "I Know - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 5/Amy In the Tardis.mp3",
@@ -2293,8 +2293,8 @@ const trackInfo =
     "name": "Locked On - Series 6"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe + The Snowmen/Antifreeze.mp3",
-    "name": "Antifreeze - The Doctor The Widow The Wardrobe + The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Antifreeze.mp3",
+    "name": "Antifreeze - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 9/Harmony and Redemption.mp3",
