@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div data-version='1.0.1'>
+    <div data-version='1.1.0'>
       <Component {...pageProps} />
     </div>
   )

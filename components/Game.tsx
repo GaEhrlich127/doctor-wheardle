@@ -2,19 +2,22 @@ import { useEffect, useState } from "react";
 import AudioPlayer from "./AudioPlayer";
 import SearchBar from "./SearchBar";
 import TrackInfo from './TrackInfo.js';
+import BangersInfo from './BangersInfo.js';
 
-const Game = () => {
+const Game = ({bangersMode = false}) => {
 
-  const STARTING_DATE = new Date("10/15/2022");
+  const STARTING_DATE = new Date(!bangersMode ? "10/15/2022" : "10/21/2022");
   const CURRENT_DATE = new Date();
   const TIME_DIFF = CURRENT_DATE.getTime()-STARTING_DATE.getTime();
   const DAY_NUMBER = Math.floor(TIME_DIFF/(1000*3600*24));
+  const TrackList = !bangersMode ? TrackInfo : BangersInfo;
 
   const [guesses, setGuesses] = useState([]);
 
   // If a cookie exists, load the data
   useEffect(()=>{
     const cookie = document.cookie;
+    console.log(cookie)
     if(cookie.length!==0) {
       setGuesses(cookie.replaceAll('guesses=','').split('|'));
     }
@@ -29,7 +32,7 @@ const Game = () => {
       for (let i=0;i<guesses.length;i++){
         guessStr+=`${i===0 ? `${guesses[i]}` : `|${guesses[i]}`}`
       }
-      document.cookie = `guesses=${guessStr}; expires=${date}`;
+      document.cookie = `guesses=${guessStr}; expires=${date.toUTCString()}; path=/${!bangersMode ? 'game' : 'bangers'}`;
     }
   },[guesses])
 
@@ -45,9 +48,17 @@ const Game = () => {
         emoji+='🟥'
     }
 
-    return `Doctor Wheardle #${DAY_NUMBER+1} ${guesses.includes('CORRECT') ? guesses.length : 'X'}/6\n${emoji}\n\nhttps://doctor-wheardle.vercel.app/`
+    return `Doctor Wheardle ${!bangersMode ? '' : `🔥 Bangers Only 🔥`} #${DAY_NUMBER+1} ${guesses.includes('CORRECT') ? guesses.length : 'X'}/6\n${emoji}\n\nhttps://doctor-wheardle.vercel.app/${!bangersMode? '' : 'bangers'}`
   }
 
+  const [shareButtonText, setShareButtonText] = useState('Share');
+  useEffect(()=>{
+    if(shareButtonText!=='Share'){
+      setTimeout(()=>{
+        setShareButtonText('Share');
+      },5000)
+    }
+  },[shareButtonText])
   const ShareButton = () => 
     <button
       style={{
@@ -59,18 +70,19 @@ const Game = () => {
       }}
       onClick={()=>{
         navigator.clipboard.writeText(shareText());
+        setShareButtonText('Copied to Clipboard!')
       }}
     >
-      Share
+      {shareButtonText}
     </button>
 
   return(
     <div
-      style={{width:'100vw', height:'100vh', display:'flex', flexDirection:'column', alignItems:'center', backgroundColor:'#2F2F2F', color:'lightgrey'}}
+      style={{minWidth:'100vw', minHeight:'100vh', display:'flex', flexDirection:'column', alignItems:'center', backgroundColor:'#2F2F2F', color:'lightgrey', overflowX:'scroll'}}
     >
-      <h1>Doctor Wheardle</h1>
+      <h1>Doctor Wheardle {!bangersMode ? '' : '🔥 Bangers Only 🔥'}</h1>
       <AudioPlayer
-        audioSrc={`/${TrackInfo[DAY_NUMBER]?.path}`}
+        audioSrc={`/${TrackList[DAY_NUMBER]?.path}`}
         currentLimit={guesses.length}
         ignoreBreaks = {guesses.includes('CORRECT') || guesses.length>=6}
       />
@@ -108,14 +120,14 @@ const Game = () => {
       {/* If you haven't won, and still have guesses left, show the search bar */}
       {!guesses.includes('CORRECT') && guesses.length<6 && (
         <SearchBar
-          trackInfo={TrackInfo}
+          trackInfo={TrackList}
           handleSkip={() => {
             if(guesses.length<6)
             setGuesses([...guesses, 'SKIP'])
           }}
           handleSubmit={(guess) => {
             if(guesses.length<6)
-              if(guess!==TrackInfo[DAY_NUMBER].name){
+              if(guess!==TrackList[DAY_NUMBER].name){
                 setGuesses([...guesses, 'INCORRECT'])
               } else {
                 setGuesses([...guesses, 'CORRECT'])
@@ -134,7 +146,7 @@ const Game = () => {
             alignItems:'center',
           }}
         >
-          <p>{`\t${TrackInfo[DAY_NUMBER].name}`}</p>
+          <p>{`\t${TrackList[DAY_NUMBER].name}`}</p>
           <ShareButton />
         </div>
       )}

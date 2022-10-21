@@ -1106,7 +1106,7 @@ const trackInfo =
   },
   {
     "path": "Series 8/The Caretaker.mp3",
-    "name": "Doctor Who Series 8 - Disc 2 - 05 - The Caretaker - Series 8"
+    "name": "The Caretaker - Series 8"
   },
   {
     "path": "Series 4 Specials/The Council of Time Lords.mp3",
@@ -1298,7 +1298,7 @@ const trackInfo =
   },
   {
     "path": "Series 8/A Good Man; (Twelve's Theme).mp3",
-    "name": "Doctor Who Series 8 - Disc 1 - 02 - A Good Man? (Twelve's Theme) - Series 8"
+    "name": "A Good Man? (Twelve's Theme) - Series 8"
   },
   {
     "path": "Series 6/Pop.mp3",
@@ -1454,7 +1454,7 @@ const trackInfo =
   },
   {
     "path": "Series 7/Clara.mp3",
-    "name": "Clara - Series 7"
+    "name": "Clara? - Series 7"
   },
   {
     "path": "Series 9/Finding The Doctor.mp3",
@@ -1542,7 +1542,7 @@ const trackInfo =
   },
   {
     "path": "Series 8/Doctor Who Theme Series 8.mp3",
-    "name": "Doctor Who Series 8 - Disc 1 - 01 - Doctor Who Theme Series 8 - Series 8"
+    "name": "Doctor Who Theme Series 8 - Series 8"
   },
   {
     "path": "The Doctor The Widow The Wardrobe & The Snowmen/Sherlock Who;.mp3",
@@ -1913,8 +1913,8 @@ const trackInfo =
     "name": "Cold War - Series 7"
   },
   {
-    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Rememeber The Worm.mp3",
-    "name": "Rememeber The Worm - The Doctor The Widow The Wardrobe & The Snowmen"
+    "path": "The Doctor The Widow The Wardrobe & The Snowmen/Remember The Worm.mp3",
+    "name": "Remember The Worm - The Doctor The Widow The Wardrobe & The Snowmen"
   },
   {
     "path": "Series 1 & 2/Tooth And Claw.mp3",
@@ -2229,8 +2229,8 @@ const trackInfo =
     "name": "All for One - Series 6"
   },
   {
-    "path": "Series 6/Tiime is Moving.mp3",
-    "name": "Tiime is Moving - Series 6"
+    "path": "Series 6/Time is Moving.mp3",
+    "name": "Time is Moving - Series 6"
   },
   {
     "path": "Day of the Doctor & Time of the Doctor/Hello Twelve.mp3",
