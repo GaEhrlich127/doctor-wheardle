@@ -45,7 +45,10 @@ const AudioPlayer = ({ audioSrc, currentLimit, ignoreBreaks }) => {
     return `${minutes}:${seconds < 10 ? "0" + seconds : seconds}`;
   }
 
-  const WIDTH_PER_SECOND=35;
+  // const WIDTH_PER_SECOND=35;
+  const TOTAL_WIDTH=56.525;
+  const TOTAL_TIME = ignoreBreaks ? audioRef.current?.duration : 16;
+  const WIDTH_PER_SECOND=TOTAL_WIDTH/TOTAL_TIME;
   return (
     <NonSSRWrapper>
       {/* Show a loading spinner while it loads */}
@@ -67,47 +70,49 @@ const AudioPlayer = ({ audioSrc, currentLimit, ignoreBreaks }) => {
       <div>
         {/* A div that will slowly fill */}
         <div style={{
-          width: `${16.15*WIDTH_PER_SECOND}px`,
+          width: `${TOTAL_WIDTH}vw`,
           height: '20px',
           border: '2px solid lightgrey',
         }}>
           {/* The div that fills it */}
           <div style={{
             height: '100%',
-            width: `${currentTime*WIDTH_PER_SECOND}px`,
-            maxWidth: `${16*WIDTH_PER_SECOND}px`,
+            width: `${currentTime*WIDTH_PER_SECOND}vw`,
+            maxWidth: `${TOTAL_WIDTH-.38}vw`,
             backgroundColor: '#0a4c8b',
           }} />
         </div>
         {/* Another div, overlayed ontop of the others, that has the vertical lines for the breakpoints */}
-        <div style={{
-          width: `${16.15*WIDTH_PER_SECOND}px`,
-          height: '20px',
-          border: '2px solid lightgrey',
-          position: 'absolute',
-          marginTop:'-20px'
-        }}>
-          {/* Generates the vertical lines */}
-          {BREAKPOINTS.slice(0,-1).map((breakpoint, index) => (
-            <div
-              key={index}
-              style={{
-                height: '100%',
-                width: '1px',
-                backgroundColor: 'lightgray',
-                position: 'absolute',
-                left: `${breakpoint*WIDTH_PER_SECOND}px`,
-              }}
-            />
-          ))}
-        </div>
+        {!ignoreBreaks && (
+          <div style={{
+            width: `${TOTAL_WIDTH*1.01}vw`,
+            height: '20px',
+            border: '2px solid lightgrey',
+            position: 'absolute',
+            marginTop:'-20px'
+          }}>
+            {/* Generates the vertical lines */}
+            {BREAKPOINTS.slice(0,-1).map((breakpoint, index) => (
+              <div
+                key={index}
+                style={{
+                  height: '100%',
+                  width: '1px',
+                  backgroundColor: 'lightgray',
+                  position: 'absolute',
+                  left: `${breakpoint*WIDTH_PER_SECOND}vw`,
+                }}
+              />
+            ))}
+          </div>
+        )}
 
         {/* Show the timers */}
         <div style={{
           display: 'flex',
           flexDirection: 'row',
           justifyContent: 'space-between',
-          width: `${16.1*WIDTH_PER_SECOND}px`,
+          width: `${TOTAL_WIDTH-.05}vw`,
           marginTop: '5px',
         }}>
           <p style={{color: 'lightgrey', fontSize: '12px'}}>{timeConverter(audioRef.current?.currentTime)}</p>
