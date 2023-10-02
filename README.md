@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Doctor Wheardle
+
+This is my implementation of [Heardle Games](https://heardle.moe/) for the Doctor Who (2005) Official Soundtracks. I have chosen to only include Murray Gold's work on the show, just due to personal enjoyment of his compositions more than Segun Akinola.
+
+Two modes of play exist, [Full OST](https://doctor-wheardle.vercel.app/game) and [Bangers](https://doctor-wheardle.vercel.app/bangers). The former is all of Murray Gold's officially released works, the latter is a small subsection that mirrors my personal "Doctor Who Bangers" Playlist.
+
+## Technical Decisions
+
+I recognize I have  a few code decisions that may not be best practice.
+* Inline Styling: I recognize this is pretty bad practice, but I originally built this as an almost codejam like project in a weekend, just so I would be able to play Heardle with the OST for my favorite show. Inline styling was the fastest way to iterate through ideas, and honestly is super nice to work with on anything that needs to know the audio player times.
+* mp3 files instead of an API: Most other Heardle Implementations use an API to play the songs and get the file info, but I chose to use mp3 files for a simple reason. In the USA, many of the tracks needed for this game are largely inaccessible by free API. Most of the other Heardles of this nature (small in scope focused for an incredibly narrow community) use SoundCloud, which had a very slim selection of Doctor Who's tracks accessible for me to use.
 
 ## Getting Started
 
@@ -17,18 +27,3 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
