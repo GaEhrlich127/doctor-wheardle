@@ -1,18 +1,22 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCirclePlay, faCirclePause, faSpinner } from "@fortawesome/free-solid-svg-icons";
 import NonSSRWrapper from './NonSSRWrapper';
 
-const AudioPlayer = ({ audioSrc, currentLimit, ignoreBreaks }) => {
+const AudioPlayer = ({ audioSrc, currentLimit, ignoreBreaks, audioRef }) => {
   const [status, setStatus] = useState({
     isPlaying: false,
     isLoop: false,
     isLoaded: false,
     error: false,
   });
-  const audioRef = useRef(null);
   const [currentTime, setCurrentTime] = useState(0);
   const BREAKPOINTS = [1, 2, 4, 7, 11, 16]
+  const [innerWidth, setInnerWidth] = useState(0);
+
+  useEffect(()=>{
+    setInnerWidth(window.innerWidth);
+  },[])
 
   // Handler to keep current time updated
   useEffect(() => {
@@ -45,10 +49,10 @@ const AudioPlayer = ({ audioSrc, currentLimit, ignoreBreaks }) => {
     return `${minutes}:${seconds < 10 ? "0" + seconds : seconds}`;
   }
 
-  // const WIDTH_PER_SECOND=35;
-  const TOTAL_WIDTH=56.525;
+  const TOTAL_WIDTH_VW=56.525;
+  const TOTAL_WIDTH_PX = `${TOTAL_WIDTH_VW} * ${innerWidth / 100}`;
   const TOTAL_TIME = ignoreBreaks ? audioRef.current?.duration : 16;
-  const WIDTH_PER_SECOND=TOTAL_WIDTH/TOTAL_TIME;
+  const WIDTH_PER_SECOND=TOTAL_WIDTH_VW/TOTAL_TIME;
   return (
     <NonSSRWrapper>
       {/* Show a loading spinner while it loads */}
@@ -70,7 +74,7 @@ const AudioPlayer = ({ audioSrc, currentLimit, ignoreBreaks }) => {
       <div>
         {/* A div that will slowly fill */}
         <div style={{
-          width: `${TOTAL_WIDTH}vw`,
+          width: `${TOTAL_WIDTH_PX}px`,
           height: '20px',
           border: '2px solid lightgrey',
         }}>
@@ -78,14 +82,14 @@ const AudioPlayer = ({ audioSrc, currentLimit, ignoreBreaks }) => {
           <div style={{
             height: '100%',
             width: `${currentTime*WIDTH_PER_SECOND}vw`,
-            maxWidth: `${TOTAL_WIDTH-.38}vw`,
+            maxWidth: `${TOTAL_WIDTH_VW-.38}vw`,
             backgroundColor: '#0a4c8b',
           }} />
         </div>
         {/* Another div, overlayed ontop of the others, that has the vertical lines for the breakpoints */}
         {!ignoreBreaks && (
           <div style={{
-            width: `${TOTAL_WIDTH*1.01}vw`,
+            width: `${TOTAL_WIDTH_PX+1}px`,
             height: '20px',
             border: '2px solid lightgrey',
             position: 'absolute',
@@ -112,7 +116,7 @@ const AudioPlayer = ({ audioSrc, currentLimit, ignoreBreaks }) => {
           display: 'flex',
           flexDirection: 'row',
           justifyContent: 'space-between',
-          width: `${TOTAL_WIDTH-.05}vw`,
+          width: `${TOTAL_WIDTH_VW-.05}vw`,
           marginTop: '5px',
         }}>
           <p style={{color: 'lightgrey', fontSize: '12px'}}>{timeConverter(audioRef.current?.currentTime)}</p>

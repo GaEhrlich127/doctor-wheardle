@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import AudioPlayer from "./AudioPlayer";
 import SearchBar from "./SearchBar";
 import TrackInfo from './TrackInfo.js';
@@ -9,8 +9,10 @@ const Game = ({bangersMode = false}) => {
   const STARTING_DATE = new Date(!bangersMode ? "10/15/2022" : "10/21/2022");
   const CURRENT_DATE = new Date();
   const TIME_DIFF = CURRENT_DATE.getTime()-STARTING_DATE.getTime();
-  const DAY_NUMBER = Math.floor(TIME_DIFF/(1000*3600*24));
+  const DAY_NUMBER_RAW = Math.floor(TIME_DIFF/(1000*3600*24));
   const TrackList = !bangersMode ? TrackInfo : BangersInfo;
+  const DAY_NUMBER =  TrackList.length>DAY_NUMBER_RAW ? DAY_NUMBER_RAW : DAY_NUMBER_RAW%TrackList.length;
+  const audioRef = useRef(null);
 
   const [guesses, setGuesses] = useState([]);
 
@@ -48,7 +50,7 @@ const Game = ({bangersMode = false}) => {
         emoji+='🟥'
     }
 
-    return `Doctor Wheardle ${!bangersMode ? '' : `🔥 Bangers Only 🔥`} #${DAY_NUMBER+1} ${guesses.includes('CORRECT') ? guesses.length : 'X'}/6\n${emoji}\n\nhttps://doctor-wheardle.vercel.app/${!bangersMode? '' : 'bangers'}`
+    return `Doctor Wheardle ${!bangersMode ? '' : `🔥 Bangers Only 🔥`} - #${DAY_NUMBER+1} ${guesses.includes('CORRECT') ? guesses.length : 'X'}/6\n${emoji}\n\nhttps://doctor-wheardle.vercel.app/${!bangersMode? '' : 'bangers'}`
   }
 
   const [shareButtonText, setShareButtonText] = useState('Share');
@@ -59,6 +61,7 @@ const Game = ({bangersMode = false}) => {
       },5000)
     }
   },[shareButtonText])
+
   const ShareButton = () => 
     <button
       style={{
@@ -76,6 +79,10 @@ const Game = ({bangersMode = false}) => {
       {shareButtonText}
     </button>
 
+  const resetSongAndPlay = () => {
+    audioRef.current.currentTime = 0;
+    audioRef.current.play();
+  }
   return(
     <div
       style={{minWidth:'100vw', minHeight:'100vh', display:'flex', flexDirection:'column', alignItems:'center', backgroundColor:'#2F2F2F', color:'lightgrey', overflowX:'scroll'}}
@@ -85,6 +92,7 @@ const Game = ({bangersMode = false}) => {
         audioSrc={`/${TrackList[DAY_NUMBER]?.path}`}
         currentLimit={guesses.length}
         ignoreBreaks = {guesses.includes('CORRECT') || guesses.length>=6}
+        audioRef={audioRef}
       />
 
       {/* Hold the guess squares here */}
@@ -122,16 +130,25 @@ const Game = ({bangersMode = false}) => {
         <SearchBar
           trackInfo={TrackList}
           handleSkip={() => {
-            if(guesses.length<6)
-            setGuesses([...guesses, 'SKIP'])
+            if(guesses.length<6){
+              // If the final guess is about to be used
+              // Checking for 5 before adding the guess to get around state sometimes having a delay
+              // And not checking this in a useEffect so that it won't autoplay if you reload the page with a cookie that's already done all the guesses
+              if(guesses.length===5) {resetSongAndPlay();}
+              setGuesses([...guesses, 'SKIP'])
+            }
           }}
           handleSubmit={(guess) => {
-            if(guesses.length<6)
+            if(guesses.length<6){
+              // Same caveats about checking for 5 as before
+              if(guesses.length===5) {resetSongAndPlay();}
               if(guess!==TrackList[DAY_NUMBER].name){
                 setGuesses([...guesses, 'INCORRECT'])
               } else {
                 setGuesses([...guesses, 'CORRECT'])
+                resetSongAndPlay();
               }
+            }
           }}
         />
       )}
