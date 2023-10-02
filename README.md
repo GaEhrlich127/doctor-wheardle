@@ -9,6 +9,7 @@ Two modes of play exist, [Full OST](https://doctor-wheardle.vercel.app/game) and
 I recognize I have  a few code decisions that may not be best practice.
 * Inline Styling: I recognize this is pretty bad practice, but I originally built this as an almost codejam like project in a weekend, just so I would be able to play Heardle with the OST for my favorite show. Inline styling was the fastest way to iterate through ideas, and honestly is super nice to work with on anything that needs to know the audio player times.
 * mp3 files instead of an API: Most other Heardle Implementations use an API to play the songs and get the file info, but I chose to use mp3 files for a simple reason. In the USA, many of the tracks needed for this game are largely inaccessible by free API. Most of the other Heardles of this nature (small in scope focused for an incredibly narrow community) use SoundCloud, which had a very slim selection of Doctor Who's tracks accessible for me to use.
+* TypeScript files without typing: This repo was actually originally intended to be a clone of Wordle that I never ended up finishing, which I had built in TypeScript. When I decided to scrap that project and reuse the repo, it was already setup for Typescript, but because of the hasty nature of my first implementation here, I decided to pretty much ignore typing. Whoops.
 
 ## Getting Started
 
